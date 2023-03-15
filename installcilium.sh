@@ -10,3 +10,5 @@ sudo tar xzvfC cilium-linux-${CLI_ARCH}.tar.gz /usr/local/bin
 rm cilium-linux-${CLI_ARCH}.tar.gz cilium-linux-${CLI_ARCH}.tar.gz.sha256sum
 
 cilium install --helm-set ipam.operator.clusterPoolIPv4PodCIDRList=$POD_CIDR
+
+#ciao
