@@ -96,3 +96,5 @@ cgroupDriver: "systemd"
 EOF
 
 kubeadm init --config ~/kubeadm-config.yaml
+
+#ciao
